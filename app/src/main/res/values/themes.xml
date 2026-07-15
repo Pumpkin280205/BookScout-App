@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Normal app theme (used after the splash screen). -->
+    <style name="Theme.BookScout" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:statusBarColor">@color/brand</item>
+        <item name="android:windowBackground">@color/background_light</item>
+        <item name="android:navigationBarColor">@color/background_light</item>
+        <item name="android:colorBackground">@color/background_light</item>
+    </style>
+
+    <!-- Splash theme for Android 12+ (core-splashscreen). -->
+    <style name="Theme.BookScout.Splash" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/brand</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/ic_launcher_foreground</item>
+        <item name="windowSplashScreenIconBackground">@color/brand</item>
+        <item name="postSplashScreenTheme">@style/Theme.BookScout</item>
+    </style>
+
+</resources>

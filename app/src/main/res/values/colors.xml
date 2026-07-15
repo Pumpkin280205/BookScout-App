@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Brand identity -->
+    <color name="brand">#4F46E5</color>
+    <color name="brand_light">#B3ABFF</color>
+
+    <!-- Default surfaces -->
+    <color name="background_light">#FAFAFF</color>
+    <color name="background_dark">#12121A</color>
+
+    <!-- Neutral placeholder -->
+    <color name="placeholder_bg">#E4E4EC</color>
+    <color name="placeholder_fg">#9A9AB0</color>
+</resources>

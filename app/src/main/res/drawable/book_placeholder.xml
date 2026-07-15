@@ -1,0 +1,35 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Neutral background that fills the card while loading / on error. -->
+    <path
+        android:pathData="M0,0h108v108H0z"
+        android:fillColor="@color/placeholder_bg" />
+
+    <!-- Stylised book cover. -->
+    <path
+        android:pathData="M36,30h36a4,4 0 0 1 4,4v44a4,4 0 0 1 -4,4H36a4,4 0 0 1 -4,-4V34a4,4 0 0 1 4,-4z"
+        android:fillColor="#FFFFFF" />
+
+    <!-- Spine -->
+    <path
+        android:pathData="M44,30L44,78"
+        android:strokeColor="@color/placeholder_bg"
+        android:strokeWidth="4"
+        android:fillColor="@android:color/transparent" />
+
+    <!-- Title lines -->
+    <path
+        android:pathData="M50,46L70,46"
+        android:strokeColor="@color/placeholder_fg"
+        android:strokeWidth="4"
+        android:fillColor="@android:color/transparent" />
+    <path
+        android:pathData="M50,56L66,56"
+        android:strokeColor="@color/placeholder_fg"
+        android:strokeWidth="4"
+        android:fillColor="@android:color/transparent" />
+</vector>
